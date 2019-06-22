@@ -3,3 +3,7 @@
 @import url('owl.carousel.css');
 @import url('owl.transitions.css');
 @import url('jquery.fs.boxer.css');
+
+.box-shadow {
+  box-shadow: -1px 29px 131px -33px rgba(0,0,0,0.75)
+}
