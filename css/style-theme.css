@@ -1,0 +1,27 @@
+@import url("bootstrap.min.css");
+@import url("font-awesome.min.css");
+@import url("owl.carousel.css");
+@import url("owl.transitions.css");
+@import url("jquery.fs.boxer.css");
+
+.box-shadow {
+  box-shadow: -1px 29px 131px -33px rgba(0, 0, 0, 0.75);
+}
+
+.donate-here-arrow {
+  position: relative;
+  left: 125.5px;
+  animation: updown 1s ease infinite alternate;
+}
+
+@keyframes updown {
+  0% {
+    top: 0px;
+    transform: scale(.9)
+  }
+
+  100% {
+    top: 10px;
+    transform: scale(1)
+  }
+}
